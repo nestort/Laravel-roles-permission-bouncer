@@ -5,7 +5,7 @@
         <th>Grado Inicial</th>
         <th>Grado Final</th>
         <th>Tipo</th>
-            <th colspan="3">Action</th>
+            <th colspan="3">Acciones</th>
         </thead>
         <tbody>
         @foreach($reactivos as $reactivo)
@@ -19,7 +19,7 @@
                     <div class='btn-group'>
                         <a href="{{ route('reactivos.show', [$reactivo->id]) }}" class='btn btn-ghost-success'><i class="fa fa-eye"></i></a>
                         <a href="{{ route('reactivos.edit', [$reactivo->id]) }}" class='btn btn-ghost-info'><i class="fa fa-edit"></i></a>
-                        {!! Form::button('<i class="fa fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-ghost-danger', 'onclick' => "return confirm('Are you sure?')"]) !!}
+                        {!! Form::button('<i class="fa fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-ghost-danger', 'onclick' => "return confirm('¿Está seguro de que desea eliminarlo?')"]) !!}
                     </div>
                     {!! Form::close() !!}
                 </td>

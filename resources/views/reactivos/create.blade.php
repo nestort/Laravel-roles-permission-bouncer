@@ -5,7 +5,7 @@
       <li class="breadcrumb-item">
          <a href="{!! route('reactivos.index') !!}">Reactivo</a>
       </li>
-      <li class="breadcrumb-item active">Create</li>
+      <li class="breadcrumb-item active">Creación</li>
     </ol>
      <div class="container-fluid">
           <div class="animated fadeIn">                
@@ -14,7 +14,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <i class="fa fa-plus-square-o fa-lg"></i>
-                                <strong>Create Reactivo</strong>
+                                <strong>Creación Reactivo</strong>
                             </div>
                             <div class="card-body">
                                 {!! Form::open(['route' => 'reactivos.store']) !!}

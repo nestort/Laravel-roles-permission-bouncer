@@ -5,7 +5,7 @@
           <li class="breadcrumb-item">
              <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}">$MODEL_NAME_HUMAN$</a>
           </li>
-          <li class="breadcrumb-item active">Edit</li>
+          <li class="breadcrumb-item active">Edición</li>
         </ol>
     <div class="container-fluid">
          <div class="animated fadeIn">
