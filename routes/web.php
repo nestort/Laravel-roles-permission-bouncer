@@ -17,3 +17,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.', '
     Route::resource('users', 'UsersController');
 
 });
+
+
+Route::resource('reactivos', 'ReactivoController');

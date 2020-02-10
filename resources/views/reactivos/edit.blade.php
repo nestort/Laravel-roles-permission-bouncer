@@ -3,7 +3,7 @@
 @section('content')
     <ol class="breadcrumb">
           <li class="breadcrumb-item">
-             <a href="{!! route('users.index') !!}">User</a>
+             <a href="{!! route('reactivos.index') !!}">Reactivo</a>
           </li>
           <li class="breadcrumb-item active">Edit</li>
         </ol>
@@ -15,12 +15,12 @@
                       <div class="card">
                           <div class="card-header">
                               <i class="fa fa-edit fa-lg"></i>
-                              <strong>Edit User</strong>
+                              <strong>Edit Reactivo</strong>
                           </div>
                           <div class="card-body">
-                              {!! Form::model($user, ['route' => ['users.update', $user->id], 'method' => 'patch']) !!}
+                              {!! Form::model($reactivo, ['route' => ['reactivos.update', $reactivo->id], 'method' => 'patch']) !!}
 
-                              @include('users.fields')
+                              @include('reactivos.fields')
 
                               {!! Form::close() !!}
                             </div>

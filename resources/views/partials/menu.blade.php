@@ -46,6 +46,10 @@
                     </ul>
                 </li>
             @endcan
+
+                        @include('partials.menu_items')
+
+
             <li class="nav-item">
                 <a href="{{ route('auth.change_password') }}" class="nav-link {{ request()->is('change_password') ? 'active' : '' }}">
                     <i class="nav-icon fas fa-fw fa-key">
@@ -64,6 +68,10 @@
             </li>
         </ul>
 
+     
+
+
     </nav>
     <button class="sidebar-minimizer brand-minimizer" type="button"></button>
 </div>
+
