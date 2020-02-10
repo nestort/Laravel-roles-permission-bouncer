@@ -15,10 +15,11 @@
                          <div class="card">
                              <div class="card-header">
                                  <strong>Detalles</strong>
-                                  <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}" class="btn btn-light">Atrás</a>
+                                 
                              </div>
                              <div class="card-body">
                                  @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.show_fields')
+                                 <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}" class="btn btn-secondary">Atrás</a>
                              </div>
                          </div>
                      </div>

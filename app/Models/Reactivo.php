@@ -7,7 +7,7 @@ use Eloquent as Model;
 /**
  * Class Reactivo
  * @package App\Models
- * @version February 10, 2020, 8:36 pm UTC
+ * @version February 10, 2020, 8:56 pm UTC
  *
  * @property string pregunta
  * @property integer grado_inicial

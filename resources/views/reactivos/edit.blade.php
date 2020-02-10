@@ -5,7 +5,7 @@
           <li class="breadcrumb-item">
              <a href="{!! route('reactivos.index') !!}">Reactivo</a>
           </li>
-          <li class="breadcrumb-item active">Edit</li>
+          <li class="breadcrumb-item active">Edición</li>
         </ol>
     <div class="container-fluid">
          <div class="animated fadeIn">
@@ -15,7 +15,7 @@
                       <div class="card">
                           <div class="card-header">
                               <i class="fa fa-edit fa-lg"></i>
-                              <strong>Edit Reactivo</strong>
+                              <strong>Edición Reactivo</strong>
                           </div>
                           <div class="card-body">
                               {!! Form::model($reactivo, ['route' => ['reactivos.update', $reactivo->id], 'method' => 'patch']) !!}

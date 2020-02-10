@@ -8,7 +8,8 @@
       <li class="breadcrumb-item active">Creación</li>
     </ol>
      <div class="container-fluid">
-          <div class="animated fadeIn">                
+          <div class="animated fadeIn">   
+            @include('flash::message')             
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="card">
