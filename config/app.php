@@ -248,6 +248,7 @@ return [
         'Form'         => Collective\Html\FormFacade::class,
         'Html'         => Collective\Html\HtmlFacade::class,
         'Bouncer'      => Silber\Bouncer\BouncerFacade::class,
+        'Flash'     => Laracasts\Flash\Flash::class,
         
     ],
 

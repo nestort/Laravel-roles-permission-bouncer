@@ -1,7 +1,10 @@
 {
     "name": "laravel/laravel",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -12,7 +15,9 @@
         "laravel/framework": "^6.0",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^6.0",
-        "silber/bouncer": "v1.0.0-rc.6"
+        "silber/bouncer": "v1.0.0-rc.6",
+        "infyomlabs/laravel-generator": "6.0.x-dev",
+        "infyomlabs/coreui-templates": "6.0.x-dev"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
